@@ -1,0 +1,31 @@
+{
+  "NEXUS": {
+    "purpose": "Shared cognitive core",
+    "status": "architecture ready",
+    "evidence_required": true
+  },
+  "MAIZE": {
+    "purpose": "Crop and farm decision support",
+    "priority": 1,
+    "pilot": "Maize advisory in one Tanzanian region"
+  },
+  "ENERGY": {
+    "purpose": "Grid, mini-grid, and energy resilience",
+    "priority": 2,
+    "pilot": "Factory or solar mini-grid monitoring"
+  },
+  "HEALTH": {
+    "purpose": "Safe triage and referral support",
+    "priority": 3,
+    "constraint": "No diagnosis or prescription"
+  },
+  "RETAIL": {
+    "purpose": "SME inventory and demand intelligence",
+    "priority": 4
+  },
+  "CONSCIOUSNESS": {
+    "purpose": "Research framework and evidence audit",
+    "priority": 5,
+    "constraint": "No consciousness claims"
+  }
+}

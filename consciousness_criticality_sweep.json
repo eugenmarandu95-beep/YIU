@@ -1,0 +1,56 @@
+[
+  {
+    "L": 16,
+    "T": 2.2,
+    "alpha": 0.8,
+    "n_avalanches": 51,
+    "tau": 1.452,
+    "spectral_exponent": 1.907,
+    "mean_size": 583.45
+  },
+  {
+    "L": 24,
+    "T": 1.8,
+    "alpha": 1.0,
+    "n_avalanches": 22,
+    "tau": 1.608,
+    "spectral_exponent": 1.935,
+    "mean_size": 1300.41
+  },
+  {
+    "L": 24,
+    "T": 2.2,
+    "alpha": 0.8,
+    "n_avalanches": 29,
+    "tau": 1.675,
+    "spectral_exponent": 1.932,
+    "mean_size": 998.97
+  },
+  {
+    "L": 24,
+    "T": 2.6,
+    "alpha": 1.0,
+    "n_avalanches": 26,
+    "tau": 1.473,
+    "spectral_exponent": 1.936,
+    "mean_size": 1043.62
+  },
+  {
+    "L": 32,
+    "T": 2.2,
+    "alpha": 1.0,
+    "n_avalanches": 10,
+    "tau": 1.483,
+    "spectral_exponent": 1.942,
+    "mean_size": 2655.0
+  },
+  {
+    "L": 32,
+    "T": 2.6,
+    "alpha": 1.0,
+    "n_avalanches": 18,
+    "tau": 1.443,
+    "spectral_exponent": 1.942,
+    "mean_size": 1598.61
+  }
+]

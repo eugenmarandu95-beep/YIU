@@ -1,0 +1,93 @@
+{
+  "brain_name": "YIU",
+  "simulation": "S01 State Continuity",
+  "status": "executed_synthetic_benchmark",
+  "runs": 90,
+  "groups": [
+    {
+      "scenario": "restart",
+      "mode": "volatile",
+      "runs": 10,
+      "exact_matches": 0,
+      "corrections_retained": 0,
+      "mean_lost_events": 43.0
+    },
+    {
+      "scenario": "restart",
+      "mode": "snapshot_only",
+      "runs": 10,
+      "exact_matches": 0,
+      "corrections_retained": 10,
+      "mean_lost_events": 1.0
+    },
+    {
+      "scenario": "restart",
+      "mode": "snapshot_replay",
+      "runs": 10,
+      "exact_matches": 10,
+      "corrections_retained": 10,
+      "mean_lost_events": 0.0
+    },
+    {
+      "scenario": "corrupt_latest",
+      "mode": "volatile",
+      "runs": 10,
+      "exact_matches": 0,
+      "corrections_retained": 0,
+      "mean_lost_events": 43.0
+    },
+    {
+      "scenario": "corrupt_latest",
+      "mode": "snapshot_only",
+      "runs": 10,
+      "exact_matches": 0,
+      "corrections_retained": 10,
+      "mean_lost_events": 8.0
+    },
+    {
+      "scenario": "corrupt_latest",
+      "mode": "snapshot_replay",
+      "runs": 10,
+      "exact_matches": 10,
+      "corrections_retained": 10,
+      "mean_lost_events": 0.0
+    },
+    {
+      "scenario": "partial_write",
+      "mode": "volatile",
+      "runs": 10,
+      "exact_matches": 0,
+      "corrections_retained": 0,
+      "mean_lost_events": 43.0
+    },
+    {
+      "scenario": "partial_write",
+      "mode": "snapshot_only",
+      "runs": 10,
+      "exact_matches": 0,
+      "corrections_retained": 10,
+      "mean_lost_events": 1.0
+    },
+    {
+      "scenario": "partial_write",
+      "mode": "snapshot_replay",
+      "runs": 10,
+      "exact_matches": 10,
+      "corrections_retained": 10,
+      "mean_lost_events": 0.0
+    }
+  ],
+  "next_simulation": "S02 Memory Correction and Evidence Conflict",
+  "next_action": "Build held-out claim/correction tasks from original TOLBIT passages; no separate research brain.",
+  "limitations": [
+    "No language model evaluated",
+    "No biological or subjective-consciousness inference",
+    "No competitors tested",
+    "No external side effects",
+    "Single-interruption deterministic replay with trusted complete event tape",
+    "No hardware power-loss durability certification"
+  ],
+  "sources": {
+    "fixture": "Conversation correction: v5 snapshot similarity is not trained memory; manually encoded, not an imported dataset"
+  }
+}

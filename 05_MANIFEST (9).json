@@ -1,0 +1,23 @@
+{
+  "script_sha256": "ba4ff17f2a000d2fcc57dca80d3276b2a54a1007e342912d72a3324a4208d22c",
+  "python": "3.12.14 (main, Nov 18 2026, 01:36:36) [GCC 15.2.0]",
+  "seeds": [
+    8101,
+    8102,
+    8103,
+    8104,
+    8105,
+    8106,
+    8107,
+    8108,
+    8109,
+    8110
+  ],
+  "schema_version": 1,
+  "files": {
+    "04_CHECKPOINT.json": "f263a9392908398d1199370565c0d3b317c7d2b70a04b4795ea8d386947ef07a",
+    "01_RUN_SIMULATION.py": "ba4ff17f2a000d2fcc57dca80d3276b2a54a1007e342912d72a3324a4208d22c",
+    "03_REPORT.md": "996a3e6a2d1d04a9c7eca94d17c6037a493d720b08143a74a2fbf8d18924a8b5",
+    "02_RESULTS.csv": "9ff90aebae2439c8f4161043dd0b6d0878a8557b3b736cb313a08f7a3c9c40e3"
+  }
+}
